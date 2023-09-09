@@ -1,0 +1,59 @@
+html{
+    background-color: antiquewhite;
+}
+header {
+    background-color: rgb(221, 185, 132);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #c08c2c;
+}
+
+/* Estilos para las subsecciones*/
+#Info-Personal, #Habilidades {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #4a2d4b; 
+}
+
+/* Estilos para los titulos de las subsecciones*/
+#Info-Personal h2, #Habilidades h2 {
+    font-size: 24px;
+}
+
+/* Estilos para la lista de habilidades */
+#Habilidades ul {
+    list-style-type: circle;
+}
+
+/* Estilos para el footer*/
+footer{
+    background-color: rgb(160, 122, 40);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para pantallas pequeñas*/
+@media only screen and (max-width:600px){
+    header, #Info-Personal, #Habilidades {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1025px){
+    header, #Info-Personal, #Habilidades {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+}
+
